@@ -1,5 +1,5 @@
 {
-	"name": "web-template",
+	"name": "lospec-chipper",
 	"version": "1.0.0",
 	"description": "",
 	"main": "build.js",
@@ -10,7 +10,6 @@
 		"dev": "concurrently npm:build npm:serve npm:watch --restart-tries -1"
 	},
 	"author": "skeddles",
-	"license": "UNLICENCED",
 	"dependencies": {
 		"async": "^3.2.0",
 		"concurrently": "^6.2.1",
