@@ -26,7 +26,7 @@ console.log('ENV:',LIVE?'live':'dev');
 const environments = require('gulp-environments');
 const liveOnly = environments.make('live');
 environments.current(LIVE?'live':'dev');
-const cssStyle = LIVE?'compressed':'nested';
+const cssStyle = 'compressed';
 
 //████████████████████████████████████████████████████████████████████████████████
 //████████████████████████████████ TASKS █████████████████████████████████████████
